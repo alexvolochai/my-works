@@ -1,0 +1,67 @@
+.site-header {
+    /*min-height: 180px;*/
+    background: #fff;
+
+}
+.site-header a {
+    color: #34404b;
+    text-decoration: none;
+    font-size: 17px;
+}
+.site-header a:hover {
+    color: #ff7013;
+}
+.header-line {
+    /*min-height: 60px;*/
+    padding: 7px 0;
+    border-bottom: 1px solid #edeff1;
+}
+.header-line .block-570 {
+    min-height: auto;
+}
+.header-line .header-ico {
+    margin: 0 10px;
+}
+.block-170 .main-logo {
+    margin-top: 30px;
+}
+ 
+.main-logo ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+ .main-nav li {
+     float: left;
+     list-style: none;
+     margin: 22px 15px;
+}
+.main-nav .active a{
+    color: #ff7013;
+}
+.ico-line {
+    margin-top: 38px;
+}
+.ico-line img {
+    margin: 0 12px;
+}
+.carts-count {
+    position: relative;
+}
+.carts-count::after {
+    content: "7";
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    top: -18px;
+    left: 16px;
+    background: black;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+}
+.contacts a {
+    margin: 0 20px 0 0;
+}

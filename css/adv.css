@@ -1,0 +1,73 @@
+.block_adv {
+    min-height: 100px;
+    background: white;
+    border: 1px solid #eaedef;
+}
+
+.block_adv .sale {
+    width: 25%;
+    float: left;
+    margin: 0 2%;
+
+}
+.sale-img {
+    width: 80px;
+    height: 80px;
+    background: url("../images/sale_img.png");
+    margin: 10px auto;
+    text-align: center;
+}
+
+.sale-img span {
+    font-style: italic;
+    font-size: 12px;
+    color: #F1F3F4;
+    padding-top: 18px;
+    display: block;
+}
+.sale-img {
+    font-size: 12px;
+    color: #F1F3F4;
+    font-size: 18px;
+}
+.block_adv .slogan {
+    width: 40%;
+    float: left;
+    margin: 0 2.23%;
+    min-height: 100px;
+}
+.block_adv .slogan h3 {
+    color: #34404B;
+    font-size: 22px;
+    text-align: left;
+    margin: 0;
+    padding-top: 18px;
+}
+.block_adv .slogan p {
+    color: #34404B;
+    font-size: 12px;
+    text-align: left;
+    margin: 5px;
+}
+.block_adv .adv-price {
+    width: 23%;
+    min-height: 100px;
+    float: left;
+    margin: 0 2;
+    color: #ff7013;
+    font-size: 24px;
+    line-height: 100px;
+}
+.block_adv .adv-price::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url("../images/card_plus.png");
+    display: inline-block;
+    margin-right: 25px;
+}
+/*--------------------adv-2 ----------------------*/
+.adv-2 {
+    padding: 20px;
+    line-height: 25px;
+}
