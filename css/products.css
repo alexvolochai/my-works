@@ -5,9 +5,16 @@
     margin: 0 1.25% 30px 1.25%;
     padding: 20px 0;
  }
+ #sd-4 {
+    padding: 34px 0;
+ }
+ #sd-4 h3 {
+     margin: 4px 0;
+ }
  .sidebar-block h3 {
     font-size: 18px;
     color: #ff7013;
+    margin: 7px 0;
 }
  .sidebar-block ul li {
      list-style: none;
@@ -82,7 +89,8 @@
 }
 .slider-from-to input {
     width: 50px;
-    margin-left: 20px;
+    margin-left: 1px;
+    margin-right: 20px;
 }
 
 /*------------------- mobile 768px ----------------------*/

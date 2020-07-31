@@ -246,7 +246,7 @@ h3 span {
     -ms-flex-align: start;
     align-items: flex-start;
 }
-/*------------------- mobile 768px ----------------------*/
+/*------------------- IPad 768px ----------------------*/
 @media screen and (max-width:768px) {
     .block-1170,
     .block-900,
@@ -277,7 +277,7 @@ h3 span {
 .md-10,
 .md-12 {
     float: left;
-    margin: 0 1.25%;
+    margin: 1% 1%;
 }
 
 .md-1 {
@@ -337,7 +337,9 @@ h3 span {
 .goods-catalog {
     margin-top: 30px;
 } 
-
+.main-nav ul {
+    padding-left: 21%;
+}
 
 
 }
